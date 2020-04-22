@@ -67,5 +67,9 @@ public class SpecificationController {
         }
         return ResponseEntity.ok(groups);
     }
+    public void test(){
+        int i = 0;
+        System.out.println(i);
+    }
 
 }
