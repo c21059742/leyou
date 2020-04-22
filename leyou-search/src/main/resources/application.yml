@@ -1,0 +1,27 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: search-service
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 192.168.136.128:9300
+  rabbitmq:
+    host: 192.168.136.128
+    virtual-host: /leyou
+    username: leyou
+    password: leyou
+  main:
+    allow-bean-definition-overriding: true
+  jackson:
+    default-property-inclusion: non_null #过滤值为null的字段
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+    registry-fetch-interval-seconds: 10 #拉取服务间隔时间
+  instance:
+    lease-renewal-interval-in-seconds: 5 #心跳时间
+    lease-expiration-duration-in-seconds: 15  #过期时间
+

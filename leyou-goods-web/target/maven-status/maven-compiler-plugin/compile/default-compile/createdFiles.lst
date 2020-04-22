@@ -1,0 +1,9 @@
+com\leyou\web\client\CategoryClient.class
+com\leyou\web\LeyouGoodsWebApplication.class
+com\leyou\web\service\GoodHtmlService.class
+com\leyou\web\listener\GoodListener.class
+com\leyou\web\client\GoodsClient.class
+com\leyou\web\client\BrandClient.class
+com\leyou\web\client\SpecificationClient.class
+com\leyou\web\contorller\GoodsController.class
+com\leyou\web\service\GoodsService.class
